@@ -1,5 +1,5 @@
 """
-WSGI config for did_django_chuck_norris_api project.
+WSGI config for Joke_API project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'did_django_chuck_norris_api.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Joke_API.settings')
 
 application = get_wsgi_application()
