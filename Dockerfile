@@ -1,6 +1,9 @@
 FROM python:3.11
 
+ENV PYTHONNUNBUFFERED=1
+
 WORKDIR /app
+
 
 COPY requirements.txt .
 
